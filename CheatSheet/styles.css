@@ -1,0 +1,82 @@
+* {
+    font-family: lato, sans-serif;
+}
+
+body {
+    background-image: url(more-leaves.png);
+}
+
+h1 {
+    color: chocolate;
+    text-align: center;
+}
+
+h2 {
+    color: darkcyan;
+    text-align: center;
+    margin-top: 40px;
+}
+
+span {
+    font-weight: 900;
+    color:  blue;
+}
+
+
+table, th, td {
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+}
+
+th {
+    text-align: center;
+    background-color: rgb(95, 113, 124);
+    color: rgb(94, 21, 21);
+}
+
+td {
+    text-align: left;
+    height: 25px;
+    vertical-align: bottom;
+}
+
+.first {
+    background-color: lightskyblue;
+    color: brown;
+}
+
+.second {
+    background-color: rgb(29, 69, 104);
+    color: rgb(37, 24, 24);
+}
+
+.navigation {
+    background-color: rgb(95, 113, 124);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-radius: 5px;
+    max-width: fit-content;
+  }
+    .navigation a {
+    float: left;
+    display: block;
+    color: rgb(94, 21, 21);
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+  }
+  
+  .navigation a:hover {
+    background-color: rgb(132, 181, 196);
+    color: black;
+  }
+  
+  .navigation a.active {
+    background-color: rgb(29, 69, 104);
+    color: rgb(94, 21, 21);
+  }

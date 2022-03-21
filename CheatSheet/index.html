@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="main-title">
+      <h1>CSS selectors cheatsheet</h1>
+    </div>
+    <div class="subtitle">
+        <h2>Commonly used <span class="CSS">CSS</span> selectors</h2>
+    </div>
+    <div class="selector-table">
+        <table class="selectors">
+            <tr>
+              <th>Selector</th>
+              <th>Example</th>
+              <th>Description</th>
+            </tr>
+            <tr class="first">
+                <td>.class</td>
+                <td>.intro</td>
+                <td>Selects all elements with class="intro"</td>
+            </tr>
+            <tr class="second">
+                <td>.class1.class2</td>
+                <td>.name1.name2</td>
+                <td>Selects all elements with both name1 and name2 set within its class attribute</td>
+            </tr>
+            <tr class="first">
+                <td>.class1 .class2</td>
+                <td>.name1 .name2</td>
+                <td>Selects all elements with name2 that is a descendant of an element with name1</td>
+            </tr>
+            <tr class="second">
+                <td>#id</td>
+                <td>#firstname</td>
+                <td>Selects the element with id="firstname"</td>
+            </tr>
+            <tr class="first">
+                <td>*</td>
+                <td>*</td>
+                <td>Selects all elements</td>
+            </tr>
+            <tr class="second">
+                <td>element</td>
+                <td>p</td>
+                <td>Selects all &lt;p&gt; elements</td>
+            </tr>
+            <tr class="first">
+                <td>element.class</td>
+                <td>p.intro</td>
+                <td>Selects all &lt;p&gt; elements with class="intro"</td>
+            </tr>
+         </table>
+    </div>
+    <footer>
+        <div class="navigation">
+            <a href="#main-title" class="active">Home</a>
+            <a href="js-basic.html">JS basics</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </footer>
+</body>
+</html>
